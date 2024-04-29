@@ -6,8 +6,8 @@ while (num <= 10) {
 }
 
 // завдання 2
-for (let number = 2; number <= 20; number += 2) {
-  if (number % !2 === 0) {
+for (let number = 2; number <= 20; number += 1) {
+  if (number % 2 !== 0) {
     continue;
   }
   console.log(number);
